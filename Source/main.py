@@ -2,10 +2,10 @@ import numpy as np
 from sklearn.metrics import mean_squared_error as rmse
 
 from config import NAN, DataConfig
-from source.driver import Driver, add_missing_value
-from source.fcm_estimator import FCMeansEstimator
-from source.genetic_algorithm import GeneticAlgorithm
-from source.svr_estimator import SVREstimator
+from Source.driver import Driver, add_missing_value
+from Source.fcm_estimator import FCMeansEstimator
+from Source.genetic_algorithm import GeneticAlgorithm
+from Source.svr_estimator import SVREstimator
 
 
 # Print the results ans RMSE value
