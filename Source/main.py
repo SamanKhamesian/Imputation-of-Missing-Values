@@ -8,7 +8,7 @@ from Source.genetic_algorithm import GeneticAlgorithm
 from Source.svr_estimator import SVREstimator
 
 
-# Print the results ans RMSE value
+# Print the results and RMSE value
 def show_results(true_values, predicted_values):
     print('Algorithm finished.\n')
     for i in range(len(true_values)):
